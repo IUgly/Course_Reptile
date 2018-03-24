@@ -22,6 +22,7 @@ public class Course implements Comparable {
     private int weekEnd;
     private String teacher;
 
+
     private ArrayList<Integer> week = new ArrayList<Integer>();
 
     public Course(Course courseBefore,String[] courseInfo){
